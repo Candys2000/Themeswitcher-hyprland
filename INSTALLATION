@@ -1,6 +1,6 @@
 copy this into your terminal:
 
-sudo pacman -S waybar xdg-desktop-portal-hyprland xdg-desktop-portal-gtk hyprpolkiagent wl-clipboard dolphin breeze-icons ttf-jetbrains-mono-nerd ffmpegthumbs kdegraphics-thumbnailers archlinux-xdg-menu xwaylandbridge xorg-wayland brightnessctl swaybg hypridle hyprlock
+sudo pacman -S waybar grim xdg-desktop-portal-hyprland xdg-desktop-portal-gtk hyprpolkiagent wl-clipboard dolphin breeze-icons ttf-jetbrains-mono-nerd ffmpegthumbs kdegraphics-thumbnailers archlinux-xdg-menu xwaylandbridge xorg-wayland brightnessctl swaybg hypridle hyprlock
 
 then this one:
 
