@@ -1,4 +1,5 @@
 Hyprland theme switcher but every workspace is a different theme, depending on the background
+
 <img width="500" height="281.25" alt="20260410_11h53m50s_grim" src="https://github.com/user-attachments/assets/aabcd7b4-4699-47e2-b9a2-58fdcc358b84" /><img width="500" height="281.25" alt="20260410_13h17m31s_grim" src="https://github.com/user-attachments/assets/a2cd7f6c-9671-4795-a2f8-1735d29689de" />
 
 
