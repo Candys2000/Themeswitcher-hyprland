@@ -1,0 +1,90 @@
+{
+  "layer": "top", 
+  "position": "left",
+  "width": 50, //breit
+  "spacing": 5,  //abstand der knöpfe idk
+
+  "modules-left": [ "hyprland/workspaces", "hyprland/windows"], //oben
+  "modules-center": ["custom/appmenu", "custom/word", "custom/browser", "custom/manga"],
+  "modules-right": ["custom/kitty", "custom/files", "clock", "network", "battery", "pulseaudio"], //unten
+  "reload_style_on_change":true,
+
+"custom/appmenu": {
+	"format": "",  //icon maybe "󰿞"?
+	"on-click": "nwg-drawer",  //or "rofi -show drun",
+	"tooltip": true,
+	"tooltip-format": "Apps Dayum"
+},
+
+//Browser?  
+"custom/browser": {
+	"format": "",
+	"on-click": "firefox",
+	"tooltip": true,
+	"tooltip-format": "Internetz"
+},
+
+//fun icons:  󰄛      󱔼    󱄲 󱄳 󰭟 󰇥  󰣇 
+
+//Files 
+"custom/files": {
+	"format": "",
+	"on-click": "dolphin",
+	"tooltip": true,
+	"tooltip-format": "Data Center"
+},
+
+"custom/manga":{
+	"format": "󱨋", //    󱓷 󱉟 󱗖
+	"on-click": "komikku",
+	"tooltip": true,
+	"tooltip-format": "Mangas, du Nerd"
+},
+
+"custom/word": {
+	"format": "",  //
+	"on-click": "LibreOffice",
+	"tooltip": true,  //sprechblase lol
+	"tooltip-format": "Write, you gay ass!"  //SPRECHBLASE LOL
+},
+
+"custom/kitty": {
+	"format": "",  //󰄛
+	"on-click": "kitty",
+	"tooltip": true,
+	"tooltip-format": "here, Kitty Kitty Kitty"
+},
+
+"clock": {
+	"format": "{:%H\n%M}", //stunde über minute?
+	"tooltip-format": "<big>{:%Y %B}</big\n<tt><small>{calendar}</small></tt>"
+	},
+
+//"custom/launcher": {
+//        "format": "", // Ein schönes Icon für deinen App-Starter
+//        "on-click": "hyprlauncher" // Der Befehl aus deiner Config
+//    },
+
+"network": {
+    "format-wifi": "",
+    "format-ethernet":"󰈁",  //󰈀 
+    "format-disconnected": "󱚼",
+    "on-click": "networkmanager_dmenu"
+  },
+
+"battery": {
+    "states": { "warning": 30, "critical": 15 },
+    "format": "{capacity}%\n{icon}",
+    "format-charging": "{capacity}%\n{󰂄}",
+    "format-plugged": "{capacity}%\n{󱟢}",
+    "format-icons": ["󰂃", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+  },
+
+"pulseaudio": {
+    "format": "{volume}%\n{icon}",
+    "format-muted": "",
+    "format-icons": { "default": ["🕨", "🕩", "🕪"] },
+    "on-click": "pavucontrol"
+  }
+}
+
