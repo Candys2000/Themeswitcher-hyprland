@@ -1,5 +1,8 @@
 # Themeswitcher-hyprland
 My first try at a themeswitcher where every workspace has a different theme, depending on the wallpaper.
+
+see https://github.com/Candys2000/Themeswitcher-hyprland/tree/main/screenshots or folder Screenshots for screenshots to see the taskbar, color changes and window stack.
+
 colors-hyprland.sh and waybar-colors.sh need to be in the personal file/home, everything else needs to be in the .config.
 
 i added a few fun icons in the waybar files
