@@ -1,0 +1,123 @@
+* {
+    border: none;
+    font-size: 14px;
+    font-family: "JetBrainsMono Nerd Font,JetBrainsMono";
+    min-height: 25px;
+}
+
+@import "/home/candy/.cache/wal/colors-waybar.css";
+
+#custom-appmenu {
+    color: @primary;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+#window-waybar {
+  background: transparent;
+  margin: 5px;
+ }
+
+#custom-logo {
+  padding: 0 10px;
+}
+
+.modules-right {
+  padding-left: 5px;
+  border-radius: 0 15px 15px 0;
+  margin-bottom: 5px;
+  background: @background;
+}
+
+.modules-center {
+  padding: 0 15px;
+  margin-top: 2px;
+  border-radius: 0 15px 15px 0;
+  background: @background;
+}
+
+.modules-left {
+  border-radius: 0 15px 15px 0;
+  margin-top: 2px;
+  background: @background;
+}
+
+#battery,
+#custom-clipboard,
+#custom-colorpicker,
+#custom-powerDraw,
+#bluetooth,
+#pulseaudio,
+#network,
+#disk,
+#memory,
+#backlight,
+#cpu,
+#temperature,
+#custom-weather,
+#idle_inhibitor,
+#jack,
+#tray,
+#window,
+#workspaces,
+#custom-appmenu,
+#custom-browser,
+#custom-files,
+#custom-word,
+#custom-manga,
+#clock {
+  padding: 0 5px;
+}
+
+#pulseaudio {
+  padding-top: 3px;
+}
+
+/#battery,
+#custom-appmenu,
+#custom-browser,
+#custom-clipboard,
+#custom-colorpicker,
+#custom-powerDraw,
+#bluetooth,
+#pulseaudio,
+#network,
+#disk,
+#memory,
+#backlight,
+#cpu,
+#temperature,
+#custom-weather,
+#idle_inhibitor,
+#jack,
+#tray,
+#window,
+#workspaces,
+#custom-appmenu,
+#custom-browser,
+#custom-files,
+#custom-word,
+#custom-manga{
+	color: @foreground;
+}
+
+#pulseaudio.muted {
+  color: @inactive;
+  padding-top: 0;
+}
+
+#clock{
+  color: @primary;
+}
+
+#battery.charging {
+    color: @primary;
+}
+
+#battery.warning:not(.charging) {
+    color: @secondary;
+}
+
+#battery.critical:not(.charging) {
+    color: @urgent;
+}
