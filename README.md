@@ -7,7 +7,8 @@ My first try at a themeswitcher where every workspace has a different theme, dep
 
 see https://github.com/Candys2000/Themeswitcher-hyprland/tree/main/screenshots or folder Screenshots for screenshots to see the taskbar, color changes and window stack.
 
-colors-hyprland.sh and waybar-colors.sh need to be in the personal file/home, everything else needs to be in the .config.
+colors-hyprland.sh and waybar-colors.sh need to be in the personal file/home, everything else needs to be in the .config. pictures need to be in ~/Bilder/ 
+Otherwise change the route in hyprland.conf lines 41 for workspace 1 wallpaper and lines 292-320 for all 10 workspaces as well.
 
 i added a few fun icons in the waybar files
 pictures need to be in the exact folder as the hyprland.conf says. in mine its ~/Bilder/pictures/ but it can be changed. if the pictures are changed in the hyprland.conf, the theme should adjust.
