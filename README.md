@@ -1,6 +1,6 @@
 Hyprland theme switcher but every workspace is a different theme, depending on the background
 
-<img width="450" height="253.125" alt="20260410_11h53m50s_grim" src="https://github.com/user-attachments/assets/aabcd7b4-4699-47e2-b9a2-58fdcc358b84" /><img width="450" height="253.125" alt="20260410_13h17m31s_grim" src="https://github.com/user-attachments/assets/a2cd7f6c-9671-4795-a2f8-1735d29689de" />
+<img width="425" height="239.0625" alt="20260410_11h53m50s_grim" src="https://github.com/user-attachments/assets/aabcd7b4-4699-47e2-b9a2-58fdcc358b84" /><img width="425" height="239.0625" alt="20260410_13h17m31s_grim" src="https://github.com/user-attachments/assets/a2cd7f6c-9671-4795-a2f8-1735d29689de" />
 
 
 My first try at a themeswitcher where every workspace has a different theme, depending on the wallpaper. the lockscreen is a blurred version of whatever is currently on screen, the dots for the password are the arch linux symbol.
