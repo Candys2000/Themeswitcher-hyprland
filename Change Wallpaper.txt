@@ -1,0 +1,4 @@
+the wallpaper needs to be changed in hyprland.conf
+go to line 290 and decide which workspace needs a new wallpaper and change ~/Bilder/pictures/ai_hoshino.jpg into whatever picture you want, it doesnt have to be jpg
+if you change workspace 1, go to line 41 and change the route to your desired picture there too. I used the easiest path i could think of. 
+Works better if the pictures dont have spaces in the name
