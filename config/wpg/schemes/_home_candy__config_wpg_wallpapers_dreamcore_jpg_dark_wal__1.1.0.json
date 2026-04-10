@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/candy/.config/wpg/wallpapers/dreamcore.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#24381d",
+        "foreground": "#b9c5da",
+        "cursor": "#b9c5da"
+    },
+    "colors": {
+        "color0": "#24381d",
+        "color1": "#B79455",
+        "color2": "#7A91BD",
+        "color3": "#7896CA",
+        "color4": "#7EA0CD",
+        "color5": "#9D9CAE",
+        "color6": "#DBA78A",
+        "color7": "#b9c5da",
+        "color8": "#818998",
+        "color9": "#B79455",
+        "color10": "#7A91BD",
+        "color11": "#7896CA",
+        "color12": "#7EA0CD",
+        "color13": "#9D9CAE",
+        "color14": "#DBA78A",
+        "color15": "#b9c5da"
+    }
+}

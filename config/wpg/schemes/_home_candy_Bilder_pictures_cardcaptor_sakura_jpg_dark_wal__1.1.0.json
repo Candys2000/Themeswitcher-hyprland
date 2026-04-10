@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/candy/Bilder/pictures/cardcaptor_sakura.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#664348",
+        "foreground": "#e1f1ed",
+        "cursor": "#e1f1ed"
+    },
+    "colors": {
+        "color0": "#664348",
+        "color1": "#EBB5CA",
+        "color2": "#D6CED2",
+        "color3": "#EAD1D6",
+        "color4": "#F0F3CD",
+        "color5": "#D4D8E4",
+        "color6": "#F1D6E7",
+        "color7": "#e1f1ed",
+        "color8": "#9da8a5",
+        "color9": "#EBB5CA",
+        "color10": "#D6CED2",
+        "color11": "#EAD1D6",
+        "color12": "#F0F3CD",
+        "color13": "#D4D8E4",
+        "color14": "#F1D6E7",
+        "color15": "#e1f1ed"
+    }
+}

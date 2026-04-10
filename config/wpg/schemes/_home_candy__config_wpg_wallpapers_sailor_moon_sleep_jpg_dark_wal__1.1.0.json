@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/candy/.config/wpg/wallpapers/sailor_moon_sleep.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#35242a",
+        "foreground": "#e1d2d9",
+        "cursor": "#e1d2d9"
+    },
+    "colors": {
+        "color0": "#35242a",
+        "color1": "#A66C89",
+        "color2": "#C97B90",
+        "color3": "#B88E95",
+        "color4": "#D28A8D",
+        "color5": "#CF9FAE",
+        "color6": "#D9A0C3",
+        "color7": "#e1d2d9",
+        "color8": "#9d9397",
+        "color9": "#A66C89",
+        "color10": "#C97B90",
+        "color11": "#B88E95",
+        "color12": "#D28A8D",
+        "color13": "#CF9FAE",
+        "color14": "#D9A0C3",
+        "color15": "#e1d2d9"
+    }
+}

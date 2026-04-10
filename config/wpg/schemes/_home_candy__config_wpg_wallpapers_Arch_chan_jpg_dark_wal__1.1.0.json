@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/candy/.config/wpg/wallpapers/Arch_chan.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#141621",
+        "foreground": "#eef0ff",
+        "cursor": "#eef0ff"
+    },
+    "colors": {
+        "color0": "#141621",
+        "color1": "#818dc5",
+        "color2": "#797db8",
+        "color3": "#9094c0",
+        "color4": "#686c9a",
+        "color5": "#8b82b7",
+        "color6": "#7885d0",
+        "color7": "#d1d3ee",
+        "color8": "#262a40",
+        "color9": "#92a9ff",
+        "color10": "#8991ff",
+        "color11": "#a5aeff",
+        "color12": "#767ed8",
+        "color13": "#a794ff",
+        "color14": "#869dff",
+        "color15": "#eef0ff"
+    }
+}

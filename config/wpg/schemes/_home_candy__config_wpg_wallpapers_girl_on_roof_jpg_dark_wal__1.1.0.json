@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/candy/.config/wpg/wallpapers/girl_on_roof.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0c0d15",
+        "foreground": "#ddd1db",
+        "cursor": "#ddd1db"
+    },
+    "colors": {
+        "color0": "#0c0d15",
+        "color1": "#375E8B",
+        "color2": "#626A90",
+        "color3": "#B26E8D",
+        "color4": "#7884A9",
+        "color5": "#A294B5",
+        "color6": "#DC9AAF",
+        "color7": "#ddd1db",
+        "color8": "#9a9299",
+        "color9": "#375E8B",
+        "color10": "#626A90",
+        "color11": "#B26E8D",
+        "color12": "#7884A9",
+        "color13": "#A294B5",
+        "color14": "#DC9AAF",
+        "color15": "#ddd1db"
+    }
+}

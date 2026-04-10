@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/candy/.config/wpg/wallpapers/arietty.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#131710",
+        "foreground": "#a9bfbe",
+        "cursor": "#a9bfbe"
+    },
+    "colors": {
+        "color0": "#131710",
+        "color1": "#596A4E",
+        "color2": "#B6614B",
+        "color3": "#6D8D31",
+        "color4": "#3C835F",
+        "color5": "#648E5A",
+        "color6": "#A7A546",
+        "color7": "#a9bfbe",
+        "color8": "#768585",
+        "color9": "#596A4E",
+        "color10": "#B6614B",
+        "color11": "#6D8D31",
+        "color12": "#3C835F",
+        "color13": "#648E5A",
+        "color14": "#A7A546",
+        "color15": "#a9bfbe"
+    }
+}

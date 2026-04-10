@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/candy/.config/wpg/wallpapers/Sakura_and_Syaoran.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#402e21",
+        "foreground": "#f3ecdf",
+        "cursor": "#f3ecdf"
+    },
+    "colors": {
+        "color0": "#402e21",
+        "color1": "#A17F80",
+        "color2": "#B4998B",
+        "color3": "#CFB08F",
+        "color4": "#D1B5A1",
+        "color5": "#E9D2A1",
+        "color6": "#ECD4AE",
+        "color7": "#f3ecdf",
+        "color8": "#aaa59c",
+        "color9": "#A17F80",
+        "color10": "#B4998B",
+        "color11": "#CFB08F",
+        "color12": "#D1B5A1",
+        "color13": "#E9D2A1",
+        "color14": "#ECD4AE",
+        "color15": "#f3ecdf"
+    }
+}

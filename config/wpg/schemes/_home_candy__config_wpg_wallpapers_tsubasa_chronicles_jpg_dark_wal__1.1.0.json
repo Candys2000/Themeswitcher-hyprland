@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/candy/.config/wpg/wallpapers/tsubasa_chronicles.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#040409",
+        "foreground": "#e9e9e7",
+        "cursor": "#e9e9e7"
+    },
+    "colors": {
+        "color0": "#040409",
+        "color1": "#9A9071",
+        "color2": "#CAAF6A",
+        "color3": "#4C689C",
+        "color4": "#6F8BA7",
+        "color5": "#A29F9B",
+        "color6": "#C6C1BD",
+        "color7": "#e9e9e7",
+        "color8": "#a3a3a1",
+        "color9": "#9A9071",
+        "color10": "#CAAF6A",
+        "color11": "#4C689C",
+        "color12": "#6F8BA7",
+        "color13": "#A29F9B",
+        "color14": "#C6C1BD",
+        "color15": "#e9e9e7"
+    }
+}

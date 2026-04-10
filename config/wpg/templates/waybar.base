@@ -1,0 +1,42 @@
+/*cat > home/candy/.config/wpg/templates/hyprland.conf
+Hyprland Farben-Template für wpgtk (wird bei wpg -s oder wpgtk automatisch generiert)
+
+$background = rgb(171015)
+$foreground = rgb(ddc7c8)
+
+$color0 = rgb(171015)
+$color1 = rgb(CE9F6D)
+$color2 = rgb(666495)
+$color3 = rgb(A2638C)
+$color4 = rgb(B46D91)
+$color5 = rgb(C37499)
+$color6 = rgb(AD919F)
+$color7 = rgb(ddc7c8)
+$color8 = rgb(9a8b8c)
+$color9 = rgb(CE9F6D)
+$color10 = rgb(666495)
+$color11 = rgb(A2638C)
+$color12 = rgb(B46D91)
+$color13 = rgb(C37499)
+$color14 = rgb(AD919F)
+$color15 = rgb(ddc7c8)
+
+ Zusätzliche nützliche Variablen (falls wpgtk sie bereitstellt)
+$cursor = rgb(ddc7c8)
+$active = rgb(9b5c7a)      # oft color1 oder color2
+$inactive = rgb(6b3f54)
+*/
+
+@define-color background #171015;
+@define-color foreground #ddc7c8;
+@define-color primary #CE9F6D;
+@define-color secondary #666495;
+@define-color bg      #171015;
+@define-color fg      #ddc7c8;
+@define-color active  #666495;
+#@define-color urgent  #CE9F6D;
+@define-color inactive #9a8b8c;
+@define-color urgent #CE9F6D;
+
+/* transparenz */
+@define-color bg_glass rgba(23,16,21, 0.7); 

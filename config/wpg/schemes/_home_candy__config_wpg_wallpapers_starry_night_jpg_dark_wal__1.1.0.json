@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/candy/.config/wpg/wallpapers/starry_night.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#171015",
+        "foreground": "#ddc7c8",
+        "cursor": "#ddc7c8"
+    },
+    "colors": {
+        "color0": "#171015",
+        "color1": "#CE9F6D",
+        "color2": "#666495",
+        "color3": "#A2638C",
+        "color4": "#B46D91",
+        "color5": "#C37499",
+        "color6": "#AD919F",
+        "color7": "#ddc7c8",
+        "color8": "#9a8b8c",
+        "color9": "#CE9F6D",
+        "color10": "#666495",
+        "color11": "#A2638C",
+        "color12": "#B46D91",
+        "color13": "#C37499",
+        "color14": "#AD919F",
+        "color15": "#ddc7c8"
+    }
+}

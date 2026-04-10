@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/candy/.config/wpg/wallpapers/weirdcore.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#402021",
+        "foreground": "#f1d7b6",
+        "cursor": "#f1d7b6"
+    },
+    "colors": {
+        "color0": "#402021",
+        "color1": "#B37663",
+        "color2": "#C87663",
+        "color3": "#7F8075",
+        "color4": "#9A8772",
+        "color5": "#D08C6E",
+        "color6": "#E49D78",
+        "color7": "#f1d7b6",
+        "color8": "#a8967f",
+        "color9": "#B37663",
+        "color10": "#C87663",
+        "color11": "#7F8075",
+        "color12": "#9A8772",
+        "color13": "#D08C6E",
+        "color14": "#E49D78",
+        "color15": "#f1d7b6"
+    }
+}

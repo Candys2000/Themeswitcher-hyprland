@@ -1,0 +1,4 @@
+$active = {color1}
+$inactive = {color0}
+$shadow = {color2}
+$border = {color3}

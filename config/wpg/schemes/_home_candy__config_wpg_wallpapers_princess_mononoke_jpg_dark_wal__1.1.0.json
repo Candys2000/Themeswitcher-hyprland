@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/candy/.config/wpg/wallpapers/princess_mononoke.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#080A1A",
+        "foreground": "#9ec6d8",
+        "cursor": "#9ec6d8"
+    },
+    "colors": {
+        "color0": "#080A1A",
+        "color1": "#2A4C69",
+        "color2": "#29328F",
+        "color3": "#23339A",
+        "color4": "#2B509F",
+        "color5": "#4E4AA2",
+        "color6": "#A95794",
+        "color7": "#9ec6d8",
+        "color8": "#6e8a97",
+        "color9": "#2A4C69",
+        "color10": "#29328F",
+        "color11": "#23339A",
+        "color12": "#2B509F",
+        "color13": "#4E4AA2",
+        "color14": "#A95794",
+        "color15": "#9ec6d8"
+    }
+}
