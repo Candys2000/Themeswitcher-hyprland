@@ -1,7 +1,7 @@
 <img width="1600" height="900" alt="20260410_13h15m05s_grim" src="https://github.com/user-attachments/assets/35199826-f944-4433-8fc0-6e89cb2d2e5f" />
-background workspace 4, locked screen
+
 <img width="1600" height="900" alt="20260410_11h53m50s_grim" src="https://github.com/user-attachments/assets/aabcd7b4-4699-47e2-b9a2-58fdcc358b84" />
-background space 1
+
 
 My first try at a themeswitcher where every workspace has a different theme, depending on the wallpaper. the lockscreen is a blurred version of whatever is currently on screen, the dots for the password are the arch linux symbol.
 
@@ -25,6 +25,9 @@ KNOWN BUGS:
 -kitty only changes colors after reloading a workspace per mainMod + number
 
 <img width="1600" height="900" alt="20260410_11h53m15s_grim" src="https://github.com/user-attachments/assets/451a4d03-c359-4aac-810e-7e6fad587d32" />
+
 <img width="1600" height="900" alt="20260410_11h52m31s_grim" src="https://github.com/user-attachments/assets/5f7fe43f-73f1-4eb0-b10b-781c832a8c88" />
+
 <img width="1600" height="900" alt="20260410_11h51m52s_grim" src="https://github.com/user-attachments/assets/4d1b6555-84df-4ca0-bac5-7746eb5e0919" />
+
 <img width="1600" height="900" alt="20260410_11h51m16s_grim" src="https://github.com/user-attachments/assets/39a16d98-e42e-457c-b269-9b66e3793e4d" />
