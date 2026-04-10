@@ -1,3 +1,4 @@
+<img width="1600" height="900" alt="20260410_13h15m05s_grim" src="https://github.com/user-attachments/assets/35199826-f944-4433-8fc0-6e89cb2d2e5f" />
 <img width="1600" height="900" alt="20260410_11h53m50s_grim" src="https://github.com/user-attachments/assets/aabcd7b4-4699-47e2-b9a2-58fdcc358b84" />
 # Themeswitcher-hyprland
 My first try at a themeswitcher where every workspace has a different theme, depending on the wallpaper.
