@@ -1,0 +1,51 @@
+general {
+	no_fade_in = false
+	grace = 0
+	disable_loading = true
+}
+
+background {
+	monitor =
+	path = screenshot
+	color = rgba(5, 0, 16, 0.5)
+	blur_passes = 2
+	blur_size = 5
+	noise = 0.0117
+	contrast = 0.8916
+	brightness = 0.7172
+	vibrancy = 0.1696
+	vibrancy_darkness = 0
+}
+
+input-field {
+	monitor =
+	size = 200, 50
+	outline_thickness = 5
+	dots_size = 0.33
+	dots_spacing = 0.15
+	dots_center = true
+	dots_rounding = 5
+	dots_text_format = 󰣇2_  
+	font_family = JetBrainsMono Nerd Font
+	outer_color = rgb (ff99ee)
+	inner_color = rgb (aa99ff)
+	font_color = rgb (aa99ff)
+	fade_on_empty = false
+	hide_input_base_color = rgb(ff99ee)
+	placeholder_text = <i>Password, Bitch</i>
+	hide_input = false
+	position = 0, -20
+	halign = center
+	valign = center
+}
+
+label {
+	monitor =
+	text = $TIME
+	color = rgb(255, 255, 255)
+	font_size = 64
+	font_family = JetBrainsMono Nerd Font
+	position = 0, 80
+	halign = center
+	valign = center
+}
