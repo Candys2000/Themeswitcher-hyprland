@@ -1,7 +1,9 @@
 <img width="1600" height="900" alt="20260410_13h15m05s_grim" src="https://github.com/user-attachments/assets/35199826-f944-4433-8fc0-6e89cb2d2e5f" />
 <img width="1600" height="900" alt="20260410_11h53m50s_grim" src="https://github.com/user-attachments/assets/aabcd7b4-4699-47e2-b9a2-58fdcc358b84" />
 # Themeswitcher-hyprland
-My first try at a themeswitcher where every workspace has a different theme, depending on the wallpaper.
+My first try at a themeswitcher where every workspace has a different theme, depending on the wallpaper. the lockscreen is a blurred version of whatever is currently on screen, the dots for the password are the arch linux symbol.
+
+<img width="1600" height="900" alt="20260410_13h17m31s_grim" src="https://github.com/user-attachments/assets/a2cd7f6c-9671-4795-a2f8-1735d29689de" />
 
 see https://github.com/Candys2000/Themeswitcher-hyprland/tree/main/screenshots or folder Screenshots for screenshots to see the taskbar, color changes and window stack.
 
