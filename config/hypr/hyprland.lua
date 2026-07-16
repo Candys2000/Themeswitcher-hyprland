@@ -83,7 +83,7 @@ hl.config({
         
          local function load_wal_colors()
             local colors = {},
-            local file = io.open(os.getenv("HOME") .. "/.cache/wal/colors", "r"),
+            local file = io.open(os.getenv("HOME") .. "/.cache/wal/hyprland.base", "r"),
             local index = 0,
             for line in file:lines() do
             local hex = line:gsub("#", ""),
@@ -95,9 +95,9 @@ hl.config({
     return colors,
     end,
 
-    local wal = load_wal_colors()
-    local color1 = wal[1] or "rgba(33ccffee)",
-    local color15 = wal[15] or "rgba(595959aa)",
+--    local wal = load_wal_colors()
+--    local color1 = wal[1] or "rgba(33ccffee)",
+--    local color15 = wal[15] or "rgba(595959aa)",
     
     col = {
         active_border   = { colors = { color1, color1 }, angle = 45 },
@@ -137,7 +137,7 @@ hl.config({
 
         -- Change transparency of focused and unfocused windows
         active_opacity   = 1.0,
-        inactive_opacity = 0.7,
+        inactive_opacity = 0.5,
 
 --        shadow = {
 --            enabled      = true,
