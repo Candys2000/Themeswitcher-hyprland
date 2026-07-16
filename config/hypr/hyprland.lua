@@ -122,7 +122,7 @@ hl.config({
 		enabled = true,
 		monitor_gap = 5,
 		border_overlap = true,
-	    }
+	    },
 	
     },
     
@@ -274,7 +274,7 @@ hl.config({
 hl.gesture({
     fingers = 3,
     direction = "horizontal",
-    action = "workspace"
+    action = "workspace",
 })
 
 -- Example per-device config
