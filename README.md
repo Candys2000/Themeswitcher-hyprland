@@ -5,6 +5,8 @@ Hyprland theme switcher but every workspace is a different theme, depending on t
 
 My first try at a themeswitcher where every workspace has a different theme, depending on the wallpaper. the lockscreen is a blurred version of whatever is currently on screen, the dots for the password are the arch linux symbol.
 
+2026/07/16 hyprland.lua added but not yet tested
+
 see https://github.com/Candys2000/Themeswitcher-hyprland/tree/main/screenshots or folder Screenshots for screenshots to see the taskbar, color changes and window stack.
 
 colors-hyprland.sh and waybar-colors.sh need to be in the personal file/home, everything else needs to be in the .config. pictures need to be in ~/Bilder/ 
