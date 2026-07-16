@@ -15,15 +15,6 @@ Otherwise change the route in hyprland.conf lines 41 for workspace 1 wallpaper a
 i added a few fun icons in the waybar files
 pictures need to be in the exact folder as the hyprland.conf says. in mine its ~/Bilder/pictures/ but it can be changed. if the pictures are changed in the hyprland.conf, the theme should adjust.
 
-KNOWN BUGS: 
-
--waybar doesnt start automatically, needs to be started in terminal
-
--waybar doesnt change when laptop is plugged in or plugged out of power
-
--waybar is buggy with the bottom most icons
-
--kitty only changes colors after reloading a workspace per mainMod + number
 
 <img width="1600" height="900" alt="20260410_11h53m15s_grim" src="https://github.com/user-attachments/assets/451a4d03-c359-4aac-810e-7e6fad587d32" />
 
