@@ -333,6 +333,12 @@ end
 hl.bind(mainMod .. "+ SHIFT + s", hl.dsp.exec_cmd("grim "~/Bilder/$(date +'%Y-%m-%d')_screenshot.png"))
 hl.bind(mainMod .. "+ l", hl.dsp.exec_cmd("hyprlock"))
 
+-- To switch between windows in a floating workspace: //lambda function to be added for workspaces in the future
+hl.bind("SUPER + Tab", function()
+    hl.dispatch(hl.dsp.window.cycle_next())    -- Change focus to another window
+    hl.dispatch(hl.dsp.window.bring_to_top()) -- Bring it to the top
+end)
+	
 -- Example special workspace (scratchpad)
 hl.bind(mainMod .. " + S",         hl.dsp.workspace.toggle_special("magic"))
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.window.move({ workspace = "special:magic" }))
