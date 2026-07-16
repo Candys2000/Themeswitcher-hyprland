@@ -367,6 +367,8 @@ hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = tr
 
 -- Trigger when the switch is toggled.
 hl.bind("switch:[Lid Switch]", hl.dsp.exec_cmd("hyprlock"), { locked = true })     
+
+	
 --------------------------------
 ---- WINDOWS AND WORKSPACES ----
 --------------------------------
