@@ -328,9 +328,10 @@ for i = 1, 10 do
     hl.bind(mainMod .. "+ 9",    hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/cardcaptor_sakura.jpg && swaybg -i ~/Bilder/pictures/cardcaptor_sakura.jpg -m fill"))
     hl.bind(mainMod .. "+ 0",    hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/sailor_moon_sleep.jpg && swaybg -i ~/Bilder/pictures/sailor_moon_sleep.jpg -m fill"))
     hl.bind(mainMod .. " + SHIFT + " .. key,     hl.dsp.window.move({ workspace = i }))
-    hl.bind(mainMod .. "+ l", hl.dsp.exec_cmd("hyprlock"))
-    hl.bind(mainMod .. "+ SHIFT + s", hl.dsp.exec_cmd("grim "~/Bilder/$(date +'%Y-%m-%d')_screenshot.png"))
 end
+
+hl.bind(mainMod .. "+ SHIFT + s", hl.dsp.exec_cmd("grim "~/Bilder/$(date +'%Y-%m-%d')_screenshot.png"))
+hl.bind(mainMod .. "+ l", hl.dsp.exec_cmd("hyprlock"))
 
 -- Example special workspace (scratchpad)
 hl.bind(mainMod .. " + S",         hl.dsp.workspace.toggle_special("magic"))
