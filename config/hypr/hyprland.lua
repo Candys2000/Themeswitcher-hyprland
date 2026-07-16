@@ -308,6 +308,10 @@ hl.bind(mainMod .. " + right", hl.dsp.focus({ direction = "right" }))
 hl.bind(mainMod .. " + up",    hl.dsp.focus({ direction = "up" }))
 hl.bind(mainMod .. " + down",  hl.dsp.focus({ direction = "down" }))
 
+--binding mainMod + b to waybar
+hl.bind(mainMod .. " + b",  hl.dsp.exec_cmd("pkill -SIGUSR1 waybar #& waybar -c ~/.config/waybar/config.json -s ~/.config/waybar/style.css"))
+hl.bind(mainMod .. " + b",  hl.dsp.exec_cmd("waybar && "))
+
 -- Switch workspaces with mainMod + [0-9]
 -- Move active window to a workspace with mainMod + SHIFT + [0-9]
 for i = 1, 10 do
