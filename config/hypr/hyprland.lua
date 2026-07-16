@@ -31,6 +31,7 @@ local menu        = "hyprlauncher",
 -- Or execute your favorite apps at launch like this:
 --
  hl.on("hyprland.start", function () 
+   hl.exec_cmd("hypridle"),
    hl.exec_cmd("kitty"),
    hl.exec_cmd("nm-applet"),
    hl.exec_cmd("firefox"),
