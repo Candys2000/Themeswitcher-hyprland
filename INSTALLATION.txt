@@ -1,34 +1,20 @@
-copy this into your terminal:
+copy this into your terminal, each line individually:
 
 sudo pacman -S waybar grim xdg-desktop-portal-hyprland xdg-desktop-portal-gtk wl-clipboard dolphin breeze-icons ttf-jetbrains-mono-nerd ffmpegthumbs kdegraphics-thumbnailers archlinux-xdg-menu brightnessctl swaybg hypridle hyprlock
 
-then this:
-
 yay hyprpolkitagent xwaylandbridge xorg-wayland wpgtk
-
-then this one:
 
 sudo pacman -S --needed base-devel git
 
-next:
-
 git clone https://aur.archlinux.org/wpgtk.git
-
-next:
 
 cd ~/wpgtk_install && makepkg -si
 
-next:
-
 wpg-install.sh -g
-
-next:
 
 wpg
 
 //wpg should open now, close it again
-
-next:
 
 sudo pacman -S --needed git base-devel
 
@@ -36,8 +22,6 @@ git clone https://aur.archlinux.org/yay.git
 
 cd yay makepkg -si
 
-lastly: 
-
 yay -S hyprlauncher quickshell nwg-drawer
 
-now you can just copy my config files into the home and .config folder.
+//now you can just copy my config files into the home and .config folder.
