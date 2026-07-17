@@ -1,6 +1,8 @@
 //IN THE WORKS DO NOT USE YET
 #!/usr/bin/env bash
 
+sudo pacman -S --needed base-devel git
+
 mkdir -p ~/GitClones/
 git clone "https://github.com/Candys2000/Themeswitcher-hyprland/config"
 cd dotfiles
@@ -36,7 +38,6 @@ yay -S quickshell hyprpolkitagent xwaylandbridge xorg-xwayland wpgtk hyprlaunche
 
 sudo pacman -S python-pywal
 
-sudo pacman -S --needed base-devel git
 git clone https://aur.archlinux.org/wpgtk.git
 cd ~/wpgtk_install && makepkg -si
 wpg-install.sh -g
