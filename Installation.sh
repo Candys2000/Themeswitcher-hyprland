@@ -17,13 +17,11 @@ cd ../..
 rm -fr pictures
 
 git clone "https://github.com/Candys2000/Themeswitcher-hyprland/colors-hyprland.sh"
-cd colors-hyprland.sh
 mv colors-hyprland.sh ~/
 cd ../..
 rm -fr colors-hyprland.sh
 
 git clone "https://github.com/Candys2000/Themeswitcher-hyprland/waybar-colors.sh"
-cd waybar-colors.sh
 mv waybar-colors.sh ~/
 cd ../..
 rm -fr waybar-colors.sh
