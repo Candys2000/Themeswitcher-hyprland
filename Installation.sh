@@ -41,3 +41,4 @@ sudo pacman -S python-pywal
 git clone https://aur.archlinux.org/wpgtk.git
 cd ~/wpgtk_install && makepkg -si
 wpg-install.sh -g
+wpgtk
