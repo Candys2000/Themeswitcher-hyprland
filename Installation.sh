@@ -16,7 +16,7 @@ wpg-install.sh -g
 
 sudo git clone https://github.com/Candys2000/Themeswitcher-hyprland/ ~/GitClones/
 
-sudo mv ~/GitClones/config/ ~/.config/
+sudo mv ~/GitClones/config/ ~/.config
 
 sudo mv ~/GitClones/pictures ~/Bilder/
 
@@ -25,3 +25,5 @@ sudo mv ~/GitClones/waybar-colors.sh ~/
 sudo mv ~/GitClones/colors-hyprland.sh ~/
 
 sudo rm -r ~/GitClones/
+
+sudo rm -r ~/Downloads/wpgtk
