@@ -4,32 +4,6 @@
 sudo pacman -S --needed base-devel git
 
 mkdir -p ~/GitClones/
-git clone "https://github.com/Candys2000/Themeswitcher-hyprland/config"
-cd dotfiles
-mv .config/* ~/.config/
-cd ../..
-rm -fr dotfiles
-
-git clone "https://github.com/Candys2000/Themeswitcher-hyprland/pictures"
-cd pictures
-mv pictures/* ~/Pictures
-cd ../..
-rm -fr pictures
-
-git clone "https://github.com/Candys2000/Themeswitcher-hyprland/colors-hyprland.sh"
-mv colors-hyprland.sh ~/
-cd ../..
-rm -fr colors-hyprland.sh
-
-git clone "https://github.com/Candys2000/Themeswitcher-hyprland/waybar-colors.sh"
-mv waybar-colors.sh ~/
-cd ../..
-rm -fr waybar-colors.sh
-
-git clone https://aur.archlinux.org/yay-bin.git
-cd yay-bin
-sudo pacman -S base-devel
-makepkg -si
 
 sudo pacman -S waybar grim xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xwaylandvideobridge wl-clipboard dolphin breeze-icons ttf-jetbrains-mono-nerd ffmpegthumbs kdegraphics-thumbnailers archlinux-xdg-menu brightnessctl swaybg hypridle hyprlock
 yay -S quickshell hyprpolkitagent xwaylandbridge xorg-xwayland wpgtk hyprlauncher nwg-drawer
@@ -40,3 +14,15 @@ git clone https://aur.archlinux.org/wpgtk.git
 cd ~/wpgtk_install && makepkg -si
 wpg-install.sh -g
 wpgtk
+
+sudo git clone https://github.com/Candys2000/Themeswitcher-hyprland/ ~/GitClones/
+
+sudo mv ~/GitClones/config/ ~/.config/
+
+sudo mv ~/GitClones/pictures ~/Bilder/
+
+sudo mv ~/GitClones/waybar-colors.sh ~/
+
+sudo mv ~/GitClones/colors-hyprland.sh ~/
+
+sudo rm -r ~/GitClones/
