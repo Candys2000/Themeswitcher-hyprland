@@ -17,9 +17,9 @@ wpgtk
 
 sudo git clone https://github.com/Candys2000/Themeswitcher-hyprland/ ~/GitClones/
 
-sudo mv ~/GitClones/config/ ~/.config/
+sudo mv ~/GitClones/config ~/.config/
 
-sudo mv ~/GitClones/pictures ~/Bilder/
+sudo mv ~/GitClones/pictures/ ~/Bilder/
 
 sudo mv ~/GitClones/waybar-colors.sh ~/
 
