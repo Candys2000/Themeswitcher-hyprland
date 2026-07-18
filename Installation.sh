@@ -11,7 +11,6 @@ yay -S quickshell hyprpolkitagent xorg-xwayland wpgtk hyprlauncher nwg-drawer
 sudo pacman -S python-pywal
 
 git clone https://aur.archlinux.org/wpgtk.git
-cd ~/lib/python3.14/site-packages/wpgtk/misc/ && makepkg -si
 wpg-install.sh -g
 
 sudo git clone https://github.com/Candys2000/Themeswitcher-hyprland/ ~/GitClones/
