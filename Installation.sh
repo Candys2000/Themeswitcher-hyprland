@@ -6,7 +6,7 @@ sudo pacman -S --needed base-devel git
 mkdir -p ~/GitClones/
 
 sudo pacman -S hyprland waybar grim xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xwaylandvideobridge wl-clipboard dolphin breeze-icons ttf-jetbrains-mono-nerd ffmpegthumbs kdegraphics-thumbnailers archlinux-xdg-menu brightnessctl swaybg hypridle hyprlock
-yay -S quickshell hyprpolkitagent xwaylandvideobridge xorg-xwayland wpgtk hyprlauncher nwg-drawer
+yay -S quickshell hyprpolkitagent xorg-xwayland wpgtk hyprlauncher nwg-drawer
 
 sudo pacman -S python-pywal
 
