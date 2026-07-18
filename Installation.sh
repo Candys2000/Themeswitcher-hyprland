@@ -26,3 +26,5 @@ sudo mv ~/GitClones/waybar-colors.sh ~/
 sudo mv ~/GitClones/colors-hyprland.sh ~/
 
 sudo rm -r ~/GitClones/
+
+sudo rm -r ~/Downloads/wpgtk
