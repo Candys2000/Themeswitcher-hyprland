@@ -9,6 +9,8 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepg -si
 
+cd ~/
+
 sudo pacman -S hyprland waybar grim xdg-desktop-portal-hyprland xdg-desktop-portal-gtk wl-clipboard dolphin breeze-icons ttf-jetbrains-mono-nerd ffmpegthumbs kdegraphics-thumbnailers archlinux-xdg-menu brightnessctl swaybg hypridle hyprlock
 yay -S quickshell hyprpolkitagent xorg-xwayland wpgtk hyprlauncher nwg-drawer
 
