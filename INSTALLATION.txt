@@ -1,4 +1,4 @@
-copy this into your terminal, each line individually:
+copy this into your terminal, each line individually or run the installation.sh:
 
 sudo pacman -S waybar grim xdg-desktop-portal-hyprland xdg-desktop-portal-gtk wl-clipboard dolphin breeze-icons ttf-jetbrains-mono-nerd ffmpegthumbs kdegraphics-thumbnailers archlinux-xdg-menu brightnessctl swaybg hypridle hyprlock
 
