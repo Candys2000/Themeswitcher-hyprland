@@ -1,4 +1,3 @@
-//IN THE WORKS DO NOT USE YET
 #!/usr/bin/env bash
 
 cd ~/
