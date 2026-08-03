@@ -1,4 +1,4 @@
-CURRENTLY NOT WORKING, I'm on it though
+LUA CONFIG CURRENTLY NOT WORKING, I'm on it though. Hyprlang config is still working, has a few bugs though
 
 Hyprland theme switcher but every workspace is a different theme, depending on the background. These are the Dotfiles for this.
 
@@ -8,6 +8,7 @@ Hyprland theme switcher but every workspace is a different theme, depending on t
 My first try at a themeswitcher where every workspace has a different theme, depending on the wallpaper. the lockscreen is a blurred version of whatever is currently on screen, the dots for the password are the arch linux symbol.
 
 2026/07/16 hyprland.lua added but not yet tested
+2026/08/03 hyprland.lua not working currently, I'm new to lua so this was to be expected. Working on it though
 
 see https://github.com/Candys2000/Themeswitcher-hyprland/tree/main/screenshots or folder Screenshots for screenshots to see the taskbar, color changes and window stack.
 
