@@ -31,6 +31,7 @@ local menu        = "hyprlauncher",
    hl.exec_cmd("wpg -n -s ~/Bilder/pictures/ai_hoshino.jpg && swaybg -i ~/Bilder/pictures/ai_hoshino.jpg -m fill"),
    hl.exec_cmd("komikku"),
    hl.exec_cmd("wpg -a ~/.config/wpg/templates/colors-hyprland.base"),
+   hl.exec_cmd("waybar &&"),
  end)
 
 -------------------------------
