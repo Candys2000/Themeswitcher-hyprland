@@ -244,8 +244,14 @@ hl.bind(mainMod .. " + up",    hl.dsp.focus({ direction = "up" }))
 hl.bind(mainMod .. " + down",  hl.dsp.focus({ direction = "down" }))
 
 --binding mainMod + b to waybar
-hl.bind(mainMod .. " + b",  hl.dsp.exec_cmd("pkill -SIGUSR1 waybar #& waybar -c ~/.config/waybar/config.json -s ~/.config/waybar/style.css"))
-hl.bind(mainMod .. " + b",  hl.dsp.exec_cmd("waybar && "))
+hl.bind(mainMod .. " + b", function ()
+  if waybar == active then 
+	hl.dsp.exec_cmd("pkill -SIGUSR1 waybar && waybar -c ~/.config/waybar/config.json -s ~/.config/waybar/style.css") 
+  else 
+	hl.dsp.exec_cmd("waybar &&") 
+  end 
+end)
+
 
 -- Switch workspaces with mainMod + [0-9]
 -- Move active window to a workspace with mainMod + SHIFT + [0-9]
@@ -254,18 +260,66 @@ for i = 1, 10 do
     hl.bind(mainMod .. " + SHIFT + " .. key,     hl.dsp.window.move({ workspace = i }))
 end
 
-hl.bind(mainMod .. " + 1",    hl.dsp.focus({ workspace = 1}),  hl.dsp.exec_cmd("command pkill swaybg"),  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/ai_hoshino.jpg && swaybg -i ~/Bilder/pictures/ai_hoshino.jpg -m fill"))
-hl.bind(mainMod .. " + 2",    hl.dsp.focus({ workspace = 2}),  hl.dsp.exec_cmd("command pkill swaybg"),  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/Arch_chan.jpg && swaybg -i ~/Bilder/pictures/Arch_chan.jpg -m fill"))
-hl.bind(mainMod .. " + 3",    hl.dsp.focus({ workspace = 3}),  hl.dsp.exec_cmd("command pkill swaybg"),  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/starry_night.jpg && swaybg -i ~/Bilder/pictures/starry_night.jpg -m fill"))
-hl.bind(mainMod .. " + 4",    hl.dsp.focus({ workspace = 4}),  hl.dsp.exec_cmd("command pkill swaybg"),  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/autumn_forest.png && swaybg -i ~/Bilder/pictures/autumn_forest.png -m fill"))
-hl.bind(mainMod .. " + 5",    hl.dsp.focus({ workspace = 5}),  hl.dsp.exec_cmd("command pkill swaybg"),  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/princess_mononoke.jpg && swaybg -i ~/Bilder/pictures/princess_mononoke.jpg -m fill"))
-hl.bind(mainMod .. " + 6",    hl.dsp.focus({ workspace = 6}),  hl.dsp.exec_cmd("command pkill swaybg"),  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/Sakura_and_Syaoran.jpg && swaybg -i ~/Bilder/pictures/Sakura_and_Syaoran.jpg -m fill"))
-hl.bind(mainMod .. " + 7",    hl.dsp.focus({ workspace = 7}),  hl.dsp.exec_cmd("command pkill swaybg"),  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/weirdcore.jpg && swaybg -i ~/Bilder/pictures/weirdcore.jpg -m fill"))
-hl.bind(mainMod .. " + 8",    hl.dsp.focus({ workspace = 8}),  hl.dsp.exec_cmd("command pkill swaybg"),  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/dreamcore.jpg && swaybg -i ~/Bilder/pictures/dreamcore.jpg -m fill"))
-hl.bind(mainMod .. " + 9",    hl.dsp.focus({ workspace = 9}),  hl.dsp.exec_cmd("command pkill swaybg"),  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/cardcaptor_sakura.jpg && swaybg -i ~/Bilder/pictures/cardcaptor_sakura.jpg -m fill"))
-hl.bind(mainMod .. " + 10",   hl.dsp.focus({ workspace = 10}), hl.dsp.exec_cmd("command pkill swaybg"),  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/sailor_moon_sleep.jpg && swaybg -i ~/Bilder/pictures/sailor_moon_sleep.jpg -m fill"))
+hl.bind(mainMod .. " + 1", function()
+  hl.dsp.focus({ workspace = 1 })
+  hl.dsp.exec_cmd("pkill swaybg")
+  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/ai_hoshino.jpg & swaybg -i ~/Bilder/pictures/ai_hoshino.jpg -m fill &")
+end)
 
-hl.bind(mainMod .. "+ SHIFT + s", hl.dsp.exec_cmd("grim "~/Bilder/$(date +'%Y-%m-%d')_screenshot.png"))
+hl.bind(mainMod .. " + 2", function()
+  hl.dsp.focus({ workspace = 2 })
+  hl.dsp.exec_cmd("pkill swaybg")
+  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/Arch_chan.jpg & swaybg -i ~/Bilder/pictures/Arch_chan.jpg -m fill &")
+end)
+
+hl.bind(mainMod .. " + 3", function()
+  hl.dsp.focus({ workspace = 3 })
+  hl.dsp.exec_cmd("pkill swaybg")
+  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/starry_night.jpg & swaybg -i ~/Bilder/pictures/starry_night.jpg -m fill &")
+end)
+
+hl.bind(mainMod .. " + 4", function()
+  hl.dsp.focus({ workspace = 4 })
+  hl.dsp.exec_cmd("pkill swaybg")
+  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/autumn_forest.png & swaybg -i ~/Bilder/pictures/autumn_forest.png -m fill &")
+end)
+
+hl.bind(mainMod .. " + 5", function()
+  hl.dsp.focus({ workspace = 5 })
+  hl.dsp.exec_cmd("pkill swaybg")
+  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/princess_mononoke.jpg & swaybg -i ~/Bilder/pictures/princess_mononoke.jpg -m fill &")
+end)
+
+hl.bind(mainMod .. " + 6", function()
+  hl.dsp.focus({ workspace = 6 })
+  hl.dsp.exec_cmd("pkill swaybg")
+  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/Sakura_and_Syaoran.jpg & swaybg -i ~/Bilder/pictures/Sakura_and_Syaoran.jpg -m fill &")
+end)
+
+hl.bind(mainMod .. " + 7", function()
+  hl.dsp.focus({ workspace = 7 })
+  hl.dsp.exec_cmd("pkill swaybg")
+  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/weirdcore.jpg & swaybg -i ~/Bilder/pictures/weirdcore.jpg -m fill &")
+end)
+
+hl.bind(mainMod .. " + 8", function()
+  hl.dsp.focus({ workspace = 8 })
+  hl.dsp.exec_cmd("pkill swaybg")
+  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/dreamcore.jpg & swaybg -i ~/Bilder/pictures/dreamcore.jpg -m fill &")
+end)
+
+hl.bind(mainMod .. " + 9", function()
+  hl.dsp.focus({ workspace = 9 })
+  hl.dsp.exec_cmd("pkill swaybg")
+  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/cardcaptor_sakura.jpg & swaybg -i ~/Bilder/pictures/cardcaptor_sakura.jpg -m fill &")
+end)
+
+hl.bind(mainMod .. " + 10", function()
+  hl.dsp.focus({ workspace = 10 })
+  hl.dsp.exec_cmd("pkill swaybg")
+  hl.dsp.exec_cmd("wpg -s ~/Bilder/pictures/sailor_moon_sleep.jpg & swaybg -i ~/Bilder/pictures/sailor_moon_sleep.jpg -m fill &")
+end)
+
 hl.bind(mainMod .. "+ l", hl.dsp.exec_cmd("hyprlock"))
 
 -- To switch between windows in a floating workspace: //lambda function to be added for workspaces in the future
